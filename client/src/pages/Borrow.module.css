@@ -1,0 +1,31 @@
+/* 页面容器 */
+.container {
+  padding: 24px;
+}
+
+/* 头部区域 */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+/* 逾期高亮 */
+.overdue {
+  color: #f5222d;
+  font-weight: 500;
+}
+
+/* 归还按钮 */
+.returnBtn {
+  background: #52c41a;
+  border-color: #52c41a;
+}
+
+/* 表格样式 */
+.table {
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.09);
+}

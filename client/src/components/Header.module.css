@@ -1,0 +1,61 @@
+/* 导航栏容器 */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 24px;
+  height: 64px;
+  background: #001529;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  z-index: 10;
+}
+
+/* Logo区域 */
+.logoContainer {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.logo {
+  height: 32px;
+}
+
+.title {
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0;
+}
+
+/* 菜单样式 */
+.menu {
+  flex: 1;
+  min-width: 0;
+  justify-content: center;
+  border: none;
+  background: transparent !important;
+}
+
+/* 用户面板 */
+.userPanel {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.avatar {
+  background: #1890ff;
+}
+
+.username {
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.logoutBtn {
+  color: rgba(255, 255, 255, 0.65);
+  &:hover {
+    color: white;
+    background: rgba(255, 255, 255, 0.1);
+  }
+}

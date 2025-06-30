@@ -1,0 +1,28 @@
+/* 页面容器 */
+.container {
+  padding: 24px;
+}
+
+/* 头部搜索区域 */
+.header {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.search {
+  flex: 1;
+  max-width: 400px;
+}
+
+/* 图书网格布局 */
+.bookGrid {
+  margin-top: 20px;
+}
+
+/* 加载状态 */
+.spinner {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}

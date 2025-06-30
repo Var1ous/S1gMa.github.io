@@ -1,0 +1,41 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.title {
+  margin-bottom: 24px;
+  font-size: 20px;
+  color: #2c3e50;
+}
+
+.filterCard {
+  margin-bottom: 24px;
+  border-radius: 8px;
+}
+
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.filterGroup {
+  display: flex;
+  align-items: center;
+}
+
+.readerSelect, .statusSelect {
+  width: 200px;
+}
+
+.empty {
+  margin-top: 80px;
+}
+
+.spinner {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}

@@ -1,0 +1,20 @@
+/* 表单容器 */
+.formContainer {
+  background: white;
+  padding: 24px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.09);
+}
+
+/* 表单元素间距 */
+.form {
+  .ant-form-item {
+    margin-bottom: 16px;
+  }
+}
+
+/* 提交按钮 */
+.submitBtn {
+  width: 100%;
+  margin-top: 8px;
+}

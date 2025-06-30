@@ -1,0 +1,67 @@
+/* 卡片容器 */
+.card {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* 封面样式 */
+.cover {
+  height: 200px;
+  object-fit: cover;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.coverPlaceholder {
+  height: 200px;
+  background: #f5f7fa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #8c8c8c;
+  font-size: 14px;
+}
+
+/* 内容区域 */
+.content {
+  padding: 16px;
+  flex-grow: 1;
+}
+
+.title {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.author, .isbn {
+  color: #595959;
+  font-size: 13px;
+  margin-bottom: 6px;
+}
+
+/* 标签容器 */
+.tags {
+  margin: 10px 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+/* 库存标签 */
+.stock {
+  align-self: flex-start;
+  font-weight: 500;
+  margin-top: auto;
+}
+
+/* 借阅按钮 */
+.borrowBtn {
+  margin-top: 12px;
+  width: 100%;
+}

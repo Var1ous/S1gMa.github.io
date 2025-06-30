@@ -1,0 +1,42 @@
+.loginContainer {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f2f5;
+}
+
+.loginCard {
+  width: 400px;
+  padding: 40px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.loginTitle {
+  text-align: center;
+  margin-bottom: 8px;
+  color: #1890ff;
+}
+
+.loginSubtitle {
+  text-align: center;
+  margin-bottom: 24px;
+  color: #666;
+}
+
+.loginForm {
+  margin-top: 24px;
+}
+
+.forgotLink {
+  float: right;
+}
+
+.footer {
+  margin-top: 32px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.45);
+}

@@ -1,0 +1,48 @@
+/* 页面容器 */
+.container {
+  padding: 24px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.09);
+}
+
+/* 头部区域 */
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+.search {
+  width: 300px;
+}
+
+/* 表格样式 */
+.table {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+/* 操作按钮区域 */
+.actions {
+  display: flex;
+  gap: 8px;
+}
+
+.editBtn, .deleteBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* 响应式调整 */
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  .search {
+    width: 100%;
+  }
+}
